@@ -1,0 +1,11 @@
+.resultList {
+    padding: 1em 2em;
+    border-radius: 1em;
+    width: 20em;
+    background-color: #ccc;
+    color: #333;
+}
+  
+.resultList__item a {
+    color: black;
+}
