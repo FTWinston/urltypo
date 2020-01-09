@@ -1,11 +1,18 @@
 .resultList {
+    box-sizing: border-box;
     padding: 1em 2em;
     border-radius: 1em;
-    width: 20em;
+    width: 25em;
     background-color: #ccc;
     color: #333;
 }
   
 .resultList__item a {
     color: black;
+}
+
+@media (max-width: 750px) {
+    .resultList {
+        width: calc(100vw - 5em);
+    }
 }
